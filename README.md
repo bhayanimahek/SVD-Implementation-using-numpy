@@ -45,7 +45,7 @@ The project decomposes a user-item rating matrix, reconstructs it using top sing
 1. Clone this repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bhayanimahek/SVD-Implementation-using-numpy.git
 ```
 2. **Open the Jupyter Notebook**  
    - Open `SVD_Matrix_Factorization.ipynb` in Jupyter Notebook or JupyterLab.
