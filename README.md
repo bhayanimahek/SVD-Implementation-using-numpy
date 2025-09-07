@@ -42,16 +42,20 @@ The project decomposes a user-item rating matrix, reconstructs it using top sing
 ---
 
 ## How to Run
+1. Clone this repository:
 
-1. **Open the Jupyter Notebook**  
+```bash
+git clone <repository-url>
+```
+2. **Open the Jupyter Notebook**  
    - Open `SVD_Matrix_Factorization.ipynb` in Jupyter Notebook or JupyterLab.
 
-2. **Install Required Libraries** (if not already installed):
+3. **Install Required Libraries** (if not already installed):
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn python-docx
 ```
-3. **Run All Cells in the notebook sequentially.**
+4. **Run All Cells in the notebook sequentially.**
 
   - Step 1: Data Generation
 
@@ -65,6 +69,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn python-docx
 
   - Step 6: Conclusion
 
-4. **Word Report Generation**
+5. **Word Report Generation**
 
    The notebook automatically generates SVD_Project_Report.docx with all results, tables, and plots.
